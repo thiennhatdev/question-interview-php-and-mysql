@@ -34,7 +34,13 @@
  24. Thay đổi kiểu dữ liệu của một column trong table : alter table tên-table modify tên-column kiểu-dữ-liêu(number).
  25. Truy cập các method static bằng dấu ::, có nghĩa sẽ không cần khởi tạo đối tượng, truy cập -> thì phải khởi tạo đối tượng.
  26. Abstract mang tính đơn hình, để khắc phục ta dùng interface có tính đa hình.
- 27. 
+ 27. Char được dùng lưu trữ dữ liệu nhỏ,làm việc nhanh hơn và lưu dữ liệu có độ dài cố định.Varchar thì dùng lưu dữ liệu lớn,làm việc chậm hơn và có dữ liệu được lưu có độ dài thay đổi.
+ 28. Để thay đổi tên của table : rename table tên-table to tên-table-mới.
+ 29. show tables dùng để hiển thị tất cả table.
+ 30. Primary key khác unique key ở chỗ nó là giá trị duy nhất và ko chấp nhận giá trị null,còn unique key thì có.
+ 31. select * from tên-table limit number1,number2 : lấy number2 giá trị bắt đầu tại vị trí number1.
+ 32. select sum(tên-field) as value1 from tên-table : lấy tổng các giá trị trong field trong table rồi đặt dưới tên là value1.
+ 33. 
   
  
 
