@@ -21,6 +21,21 @@
  15. Có 2 cách để truyền biến giữa các page là sử dụng method get và post.
  16. Có 2 hàm để đếm số phần tử của mảng là sizeof() và count().
  17. SỬ dụng isNaN() hoặc is_numberic() để kiểm tra một biến có phải là số hay không.
+ 18. Sử dụng CURRENT_DATE() hoặc CURRENT_TIME() để lấy ngày hoặc giờ ngày hoặc giờ trong Mysql.
+ 19. Để biết khoảng cách giữa 2 thời gian trong mysql : select datediff('ngày-tháng-năm','ngày-tháng-năm').
+ 20. Các cách thường dùng để bảo mật: 
+  - Xác thực ở input.
+  - Sử dụng session ID.
+  - Chặn tấn công XSS.
+  - ...
+ 21. Độ dài tên của database,table,hay column là 64 character.
+ 22. Để biết cấu trúc của table : describe tên-table.
+ 23. Để thay đổi một cột trong table : alter table tên-table change tên-field-old tên-field-new kiểu-dữ-liệu(number).
+ 24. Thay đổi kiểu dữ liệu của một column trong table : alter table tên-table modify tên-column kiểu-dữ-liêu(number).
+ 25. Truy cập các method static bằng dấu ::, có nghĩa sẽ không cần khởi tạo đối tượng, truy cập -> thì phải khởi tạo đối tượng.
+ 26. Abstract mang tính đơn hình, để khắc phục ta dùng interface có tính đa hình.
+ 27. 
+  
  
 
 
