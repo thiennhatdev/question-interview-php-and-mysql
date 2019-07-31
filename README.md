@@ -42,6 +42,7 @@
  32. select sum(tên-field) as value1 from tên-table : lấy tổng các giá trị trong field trong table rồi đặt dưới tên là value1.
  33. Với từ khoá final trước class thì class đó không thể kết thừa,nếu trước method thì method đó không thể bị ghi đè.
  34. Để chọn tất cả giá trị trong column mà ko lặp lại : select distinct tên-column from tên-table.
+ 35. Xoá một column trong table : alter table tên-table drop tên-column.
  
   
  
