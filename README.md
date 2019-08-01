@@ -33,7 +33,8 @@
  23. Để thay đổi một cột trong table : alter table tên-table change tên-field-old tên-field-new kiểu-dữ-liệu(number).
  24. Thay đổi kiểu dữ liệu của một column trong table : alter table tên-table modify tên-column kiểu-dữ-liêu(number).
  25. Truy cập các method static bằng dấu ::, có nghĩa sẽ không cần khởi tạo đối tượng, truy cập -> thì phải khởi tạo đối tượng.
- 26. Abstract mang tính đơn hình, để khắc phục ta dùng interface có tính đa hình.
+ 26. Abstract mang tính đơn hình, để khắc phục ta dùng interface có tính đa hình.interface không có thuộc tính mà chỉ có method, tất cả method trong interface là public,vì interface không phải là class nên nó class con có thể implements nhiều interface,và phải viết lại tất cả method của interface cho kết thừa.
+ 
  27. Char được dùng lưu trữ dữ liệu nhỏ,làm việc nhanh hơn và lưu dữ liệu có độ dài cố định.Varchar thì dùng lưu dữ liệu lớn,làm việc chậm hơn và có dữ liệu được lưu có độ dài thay đổi.
  28. Để thay đổi tên của table : rename table tên-table to tên-table-mới.
  29. show tables dùng để hiển thị tất cả table.
@@ -43,6 +44,7 @@
  33. Với từ khoá final trước class thì class đó không thể kết thừa,nếu trước method thì method đó không thể bị ghi đè.
  34. Để chọn tất cả giá trị trong column mà ko lặp lại : select distinct tên-column from tên-table.
  35. Xoá một column trong table : alter table tên-table drop tên-column.Thêm một column : alter table tên-table add tên-column kiểu-dữ-liệu(number).
+ 
  
  
   
